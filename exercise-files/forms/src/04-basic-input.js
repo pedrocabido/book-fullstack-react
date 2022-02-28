@@ -3,7 +3,7 @@ import React from 'react';
 const content = document.createElement('div');
 document.body.appendChild(content);
 
-module.exports = class extends React.Component {
+class Four extends React.Component {
   static displayName = "04-basic-input";
   state = { names: [] }; // <-- initial state
 
@@ -39,3 +39,5 @@ module.exports = class extends React.Component {
     );
   }
 };
+
+export default Four;

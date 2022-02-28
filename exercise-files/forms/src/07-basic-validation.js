@@ -4,7 +4,7 @@ import isEmail from 'validator/lib/isEmail';
 const content = document.createElement('div');
 document.body.appendChild(content);
 
-module.exports = class extends React.Component {
+class Seven extends React.Component {
   static displayName = '07-basic-validation';
 
   state = {
@@ -93,3 +93,5 @@ module.exports = class extends React.Component {
     );
   }
 };
+
+export default Seven;

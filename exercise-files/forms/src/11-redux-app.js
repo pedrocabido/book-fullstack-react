@@ -11,7 +11,7 @@ const store = createStore(reducer, applyMiddleware(thunkMiddleware));
 
 const ReduxForm = connect(mapStateToProps, mapDispatchToProps)(Form);
 
-module.exports = class extends React.Component {
+class Eleven extends React.Component {
   static displayName = '11-redux-app';
 
   componentDidMount() {
@@ -43,3 +43,5 @@ function mapDispatchToProps(dispatch) {
     }
   };
 }
+
+export default Eleven;

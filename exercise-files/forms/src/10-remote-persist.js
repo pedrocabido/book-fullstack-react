@@ -10,7 +10,7 @@ const content = document.createElement('div');
 document.body.appendChild(content);
 
 let apiClient;
-module.exports = class extends React.Component {
+class Ten extends React.Component {
   static displayName = '10-remote-persist';
 
   state = {
@@ -186,3 +186,5 @@ apiClient = {
 
   count: 1
 };
+
+export default Ten;

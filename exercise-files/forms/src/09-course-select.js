@@ -9,7 +9,7 @@ const Courses = {
   electives: Electives
 };
 
-module.exports = class extends React.Component {
+class CourseSelect extends React.Component {
   static propTypes = {
     department: PropTypes.string,
     course: PropTypes.string,
@@ -109,3 +109,5 @@ function apiClient(department) {
     }
   };
 }
+
+export default CourseSelect;

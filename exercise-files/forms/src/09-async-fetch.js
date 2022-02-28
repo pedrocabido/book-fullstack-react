@@ -7,7 +7,7 @@ const CourseSelect = require('./09-course-select.js');
 const content = document.createElement('div');
 document.body.appendChild(content);
 
-module.exports = class extends React.Component {
+class Nine extends React.Component {
   static displayName = '09-async-fetch';
 
   state = {
@@ -113,3 +113,5 @@ module.exports = class extends React.Component {
     );
   }
 };
+
+export default Nine;

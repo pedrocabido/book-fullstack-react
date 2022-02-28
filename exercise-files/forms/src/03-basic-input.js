@@ -6,7 +6,7 @@ const Field = require('./03-field-component-field.js');
 const content = document.createElement('div');
 document.body.appendChild(content);
 
-module.exports = class extends React.Component {
+class Three extends React.Component {
   static displayName = "03-basic-input";
 
   state = {
@@ -104,3 +104,5 @@ module.exports = class extends React.Component {
     );
   }
 };
+
+export default Three;

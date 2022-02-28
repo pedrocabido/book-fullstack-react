@@ -6,7 +6,7 @@ const Field = require('./08-field-component-field.js');
 const content = document.createElement('div');
 document.body.appendChild(content);
 
-module.exports = class extends React.Component {
+class Eight extends React.Component {
   static displayName = '08-field-component-form';
 
   state = {
@@ -100,3 +100,5 @@ module.exports = class extends React.Component {
     );
   }
 };
+
+export default Eight;

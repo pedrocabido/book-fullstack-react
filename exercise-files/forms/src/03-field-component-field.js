@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-module.exports = class extends React.Component {
+class ThreeExtra extends React.Component {
   static propTypes = {
     placeholder: PropTypes.string,
     name: PropTypes.string.isRequired,
@@ -42,3 +42,5 @@ module.exports = class extends React.Component {
     );
   }
 };
+
+export default ThreeExtra;
